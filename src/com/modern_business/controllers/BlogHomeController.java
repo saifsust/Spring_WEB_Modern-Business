@@ -13,7 +13,7 @@ public class BlogHomeController {
 	}
 
 	private String direct() {
-		return "blog-home";
+		return "user/blog-home";
 	}
 
 	private String redirect() {

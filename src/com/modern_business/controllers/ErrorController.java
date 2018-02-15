@@ -13,7 +13,7 @@ public class ErrorController {
 	}
 
 	private String direct() {
-		return "404";
+		return "user/404";
 	}
 
 	private String redirect() {

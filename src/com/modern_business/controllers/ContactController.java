@@ -13,7 +13,7 @@ public class ContactController {
 	}
 
 	private String direct() {
-		return "contact";
+		return "user/contact";
 	}
 
 	private String redirect() {

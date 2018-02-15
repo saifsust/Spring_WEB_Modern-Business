@@ -13,7 +13,7 @@ public class FAQController {
 	}
 
 	private String direct() {
-		return "faq";
+		return "user/faq";
 	}
 
 	private String redirect() {

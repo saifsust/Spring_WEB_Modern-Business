@@ -4,19 +4,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@Controller("productsController")
-public class ProductsController {
+@Controller("adminHomeController")
+public class AdminHomeController {
 
-	@RequestMapping(value = "/products", method = RequestMethod.GET)
-	public String produectView() {
+	@RequestMapping(value = "/admin", method = RequestMethod.GET)
+	public String home() {
 		return this.direct();
 	}
 
 	private String direct() {
-		return "user/products";
+		return "admin/index";
 	}
 
 	private String redirect() {
-		return "redirect:/products";
+		return "redirect:/index";
 	}
+
 }

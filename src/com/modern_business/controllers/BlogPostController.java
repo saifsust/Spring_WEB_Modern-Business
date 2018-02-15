@@ -13,7 +13,7 @@ public class BlogPostController {
 	}
 
 	private String direct() {
-		return "blog-post";
+		return "user/blog-post";
 	}
 
 	private String redirect() {

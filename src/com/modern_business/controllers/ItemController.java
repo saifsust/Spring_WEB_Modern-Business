@@ -13,7 +13,7 @@ public class ItemController {
 	}
 
 	private String direct() {
-		return "item";
+		return "user/item";
 	}
 
 	private String redirect() {

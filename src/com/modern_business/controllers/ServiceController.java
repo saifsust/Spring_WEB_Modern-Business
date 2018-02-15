@@ -13,7 +13,7 @@ public class ServiceController {
 	}
 
 	private String direct() {
-		return "services";
+		return "user/services";
 	}
 
 	private String redirect() {

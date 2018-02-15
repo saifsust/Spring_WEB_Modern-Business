@@ -15,6 +15,6 @@ public class AboutController {
 	}
 
 	private String direct() {
-		return "about";
+		return "user/about";
 	}
 }
