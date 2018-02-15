@@ -18,3 +18,8 @@
 <link href='<c:url  value="res/css/font-awesome.min.css"/>'
 	rel="stylesheet">
 </head>
+<body>
+<!-- JavaScript -->
+<script src='<c:url value ="res/js/jquery-1.10.2.js"/>'></script>
+<script src='<c:url value="res/js/bootstrap.js"/>'></script>
+<script src='<c:url value="res/js/modern-business.js"/>'></script>

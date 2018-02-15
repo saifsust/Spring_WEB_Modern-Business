@@ -12,5 +12,10 @@ public class HomeController {
 		System.out.println("Hello");
 		return "index";
 	}
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	public String index() {
+		System.out.println("Hello");
+		return "index";
+	}
 
 }
