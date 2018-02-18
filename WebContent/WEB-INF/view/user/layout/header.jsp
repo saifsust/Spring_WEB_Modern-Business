@@ -15,7 +15,7 @@
 <!-- Add custom CSS here -->
 <link href='<c:url value="res/css/modern-business.css" />'
 	rel="stylesheet">
-<link href='<c:url  value="res/css/font-awesome.min.css"/>'
+<link href='<c:url  value="res/font-awesome/css/font-awesome.min.css"/>'
 	rel="stylesheet">
 </head>
 <body>
